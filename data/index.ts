@@ -72,84 +72,90 @@ export const projects = [
   {
     id: 1,
     title: "Thread Clone - Social Media App",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "基礎功能完善的社群網站，並加入了即時通訊功能。",
     img: "/thread.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: [
+      "/re.svg",
+      "/chakra.png",
+      "/node.png",
+      "/socket.png",
+      "/recoil.png",
+    ],
     link: "https://threads-react.onrender.com/",
   },
   {
     id: 2,
     title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "透過GetStream.io的API跟SDK，快速進行線上即時視訊。",
     img: "/yoom.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://zoom-clone-practice.vercel.app/",
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
+export const skills = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "react.",
+    img: "/react.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "next",
+    img: "/next.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "node.",
+    img: "/node.png",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "tailwindcss",
+    img: "/tailwindcss.png",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "chakra",
+    img: "/chakra.png",
+  },
+  {
+    id: 6,
+    name: "mongo",
+    img: "/mongo.svg",
+  },
+  {
+    id: 7,
+    name: "cloudinary",
+    img: "/cloud.svg",
+  },
+  {
+    id: 8,
+    name: "appwrite",
+    img: "/app.svg",
+  },
+
+  {
+    id: 9,
+    name: "stream",
+    img: "/s.svg",
+  },
+
+  {
+    id: 10,
+    name: "git.",
+    img: "/git.svg",
+  },
+
+  {
+    id: 11,
+    name: "clerk",
+    img: "/c.svg",
+  },
+  {
+    id: 12,
+    name: "socket",
+    img: "/socket.png",
   },
 ];
 
@@ -175,17 +181,17 @@ export const workExperience = [
   },
 ];
 
-export const socialMedia = [
-  {
-    id: 1,
-    img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
-  },
-];
+// export const socialMedia = [
+//   {
+//     id: 1,
+//     img: "/git.svg",
+//   },
+//   {
+//     id: 2,
+//     img: "/twit.svg",
+//   },
+//   {
+//     id: 3,
+//     img: "/link.svg",
+//   },
+// ];

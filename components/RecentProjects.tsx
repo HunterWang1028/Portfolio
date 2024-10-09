@@ -2,8 +2,9 @@
 
 import { FaLocationArrow } from "react-icons/fa6";
 
-import { projects } from "@/data";
+import { projects, skills } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
+import React from "react";
 
 const RecentProjects = () => {
   return (
@@ -63,6 +64,18 @@ const RecentProjects = () => {
                 </div>
               </div>
             </PinContainer>
+          </div>
+        ))}
+      </div>
+      <div
+        className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10 mt-10 pt-10
+      "
+      >
+        {skills.map((skill) => (
+          <div key={skill.id}>
+            <div className="flex md:max-w-60 max-w-32 gap-2">
+              <img src={skill.img} alt={skill.name} className="md:w-10 w-5" />
+            </div>
           </div>
         ))}
       </div>

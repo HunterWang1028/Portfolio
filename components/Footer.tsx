@@ -16,9 +16,8 @@ const Footer = () => {
           讓我在快速變化的科技世界中
           <span className="text-purple">保持前行。</span>
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+        <p className="text-white-200 md:mt-10  text-center">
+          使用新學的技術，讓寫的程式能夠跑起來，是我成就感的來源。
         </p>
       </div>
     </footer>

@@ -76,7 +76,7 @@ export const projects = [
     img: "/thread.png",
     iconLists: [
       "/re.svg",
-      "/chakra.png",
+      "/Chakra.png",
       "/node.png",
       "/socket.png",
       "/recoil.png",
@@ -117,7 +117,7 @@ export const skills = [
   {
     id: 5,
     name: "chakra",
-    img: "/chakra.png",
+    img: "/Chakra.png",
   },
   {
     id: 6,
